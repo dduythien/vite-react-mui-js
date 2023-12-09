@@ -14,7 +14,7 @@ function AppThemeProvider({ children }) {
       palette: {
         mode,
         primary: {
-          main: '#1c9c7c',
+          main: '#ffcb05',
         },
         secondary: {
           main: '#9DF3C4',
@@ -192,6 +192,17 @@ function AppThemeProvider({ children }) {
             root: {
               aspectRatio: '1/1',
             },
+          },
+        },
+        MuiButton: {
+          styleOverrides: {
+            root: ({ ownerState }) => ({
+              ...ownerState,
+              color: '#004570',
+              '&:hover': {
+                backgroundColor: '#febe10',
+              },
+            }),
           },
         },
       },

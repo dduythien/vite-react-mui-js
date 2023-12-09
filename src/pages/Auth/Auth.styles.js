@@ -19,7 +19,7 @@ export const FormSX = {
 
   button: {
     height: '3rem',
-    color: 'white',
+    // color: 'white',
     textShadow: '1px 1px 1px rgba(0, 0, 0, 0.6)',
   },
 
